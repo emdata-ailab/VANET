@@ -52,7 +52,7 @@ Please reference to the environment implementation of other general reid project
 
 2. Training
 
-Reference to folder run/run_main_XXX.sh
+Reference to folder run_sh/run_main_XXX.sh
 Note: If you want to use your own dataset for training, remember to keep your data's structure
 be consistent with the veri776 dataloader's output in this project, reference to realted code for more details.
 
@@ -62,7 +62,7 @@ Example:
 
 3. evaluation
 
-Reference to folder tun/run_eval_XXX.sh
+Reference to folder run_sh/run_eval_XXX.sh
 Note: We have add 'drawing hist graph' function in evaluated stage, if you needn't this statistic operation temporarily,
 remember to shut down this function, for the operation is to some extent time-consuming, detail code block are located in examples/parsing_reid/math_tools.py.
 
