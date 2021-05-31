@@ -1,6 +1,6 @@
 """
 Appends two convolutional branches to transform all images to 2N features.
-@ 
+@ Author: liushichao
 """
 import pdb
 import torch
