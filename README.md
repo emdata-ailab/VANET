@@ -40,7 +40,7 @@ We have achieved the following preformance by using the method this paper provid
          single-branch |   77.8%   |   95.29    |   97.79    |    98.81   |
          ------------------------------------------------------------------
 
-Also, four type data's(similar-view_same-id, similar-view_different-id, different-view_different-id, different-view_same-id)) distribution are drawn based on paper's aspect:
+Also, four type data's(similar-view_same-id, similar-view_different-id, different-view_different-id, different-view_same-id) distribution are drawn based on paper's aspect:
 note: this visualization code can be founded at examples/parsing_reid/math_tools.py 
 
 
