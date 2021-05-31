@@ -48,13 +48,13 @@ Also, four type data's(similar-view_same-id, similar-view_different-id, differen
 note: this visualization code can be founded at examples/parsing_reid/math_tools.py 
 
 
-# 1. Get started
+### 1. Get started
 
 All the results are tested on VeRi-776 dstasets.
 Please reference to the environment implementation of other general reid projects, this project reference to fast-reid's. 
 
 
-# 2. Training
+### 2. Training
 
 Reference to folder run_sh/run_main_XXX.sh
 Note: If you want to use your own dataset for training, remember to keep your data's structure
@@ -64,7 +64,7 @@ Example:
       
       sh ./run_sh/run_main_vanet_two_branch_resnet.sh
 
-# 3. evaluation
+### 3. evaluation
 
 Reference to folder run_sh/run_eval_XXX.sh
 Note: We have add 'drawing hist graph' function in evaluated stage, if you needn't this statistic operation temporarily,
