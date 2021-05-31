@@ -1,6 +1,4 @@
-"""
-@time:20210421
-"""
+
 Projects reproduce details of paper 'Vanet' :
 
 This is the implementation of article VANet"Vehicle Re-identification with Viewpoint-aware Metric Learning", which support both
