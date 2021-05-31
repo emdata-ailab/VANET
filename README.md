@@ -36,17 +36,22 @@ The whole implementation is based on PVEN project(https://github.com/silverbulle
 
 ## Results comparasion
 
-We have achieved the following preformance by using the method this paper provided. 
+We have achieved the following preformance by using the method this paper 'VANET' provided. 
 
-         -------------------------- ---------------------------------------
-                       |    mAP    |   rank-1   |   rank-5   |   rank-10  |
-         --------------------------------- --------------------------------
-         two-branch    |   80.1%   |   96.48    |   98.46    |    99.40   | 
-         ------------------------------------------------------------------
-         single-branch |   77.8%   |   95.29    |   97.79    |    98.81   |
-         ------------------------------------------------------------------
+         -------------------------- -----------------------------------
+                      |    mAP    |   rank-1  |   rank-5  |  rank-10  |
+         --------------------------------- ----------------------------
+          VANET+BOT   |   80.1%   |   96.5    |   98.5    |    99.4   | 
+         --------------------------------------------------------------
+          BOT(ours)   |   77.8%   |   95.3    |   97.8    |    98.8   |
+         --------------------------------------------------------------
+          BOT[1]      |   78.2%   |   95.5    |   97.9    |      *    |
+         --------------------------------------------------------------
 
-Also, four type data's(similar-view_same-id, similar-view_different-id, different-view_different-id, different-view_same-id) distribution are drawn based on paper's aspect:
+Note, with respect to the two branch implementation of the above "VANET+BOT", we adopted the first 6 layers of the official resnet50 as the shared_conv network, the remaining two layers as the branch_conv network.There are also instructions in the corresponding code when you use.
+
+
+Also, four type data's(similar-view_same-id, similar-view_different-id, different-view_different-id, different-view_same-id) distribution are drawn based on paper's aspect.
 note: this visualization code can be founded at examples/parsing_reid/math_tools.py 
 
 
@@ -83,3 +88,6 @@ For any question, please file an issue or contact
 ```
 (Shanghai Em-Data Technology Co., Ltd.) liushichao0601@gmail.com
 ```
+
+### reference
+Khorramshahi, Pirazh, et al. "The devil is in the details: Self-supervised attention for vehicle re-identification." European Conference on Computer Vision. Springer, Cham, 2020.
