@@ -1,10 +1,12 @@
 # VANET
 Code reproduce for paper "Vehicle Re-identification with Viewpoint-aware Metric Learning"
 
-Projects reproduce details of paper 'Vanet' :
+## Introduction
 
-This is the implementation of article VANet"Vehicle Re-identification with Viewpoint-aware Metric Learning", which support both
+This is the implementation of article VANet **"Vehicle Re-identification with Viewpoint-aware Metric Learning"**, which support both
 single-branch training and two branch training.
+
+## Implementation details 
 
 The whole implementation is based on PVEN project(https://github.com/silverbulletmdc/PVEN). The key code block added and modified are mainly distributed as follows:
    
@@ -30,7 +32,9 @@ The whole implementation is based on PVEN project(https://github.com/silverbulle
         mAP, cmc, ..., hist distribution figure drawing function are included.
         code location: examples/parsing_reid/math_tools.py
 
-We have achieved the following preformance by using the method this paper provided.
+## Results comparasion
+
+We have achieved the following preformance by using the method this paper provided. 
 
          -------------------------- ---------------------------------------
                        |    mAP    |   rank-1   |   rank-5   |   rank-10  |
@@ -44,13 +48,13 @@ Also, four type data's(similar-view_same-id, similar-view_different-id, differen
 note: this visualization code can be founded at examples/parsing_reid/math_tools.py 
 
 
-1. Get started
+# 1. Get started
 
 All the results are tested on VeRi-776 dstasets.
 Please reference to the environment implementation of other general reid projects, this project reference to fast-reid's. 
 
 
-2. Training
+# 2. Training
 
 Reference to folder run_sh/run_main_XXX.sh
 Note: If you want to use your own dataset for training, remember to keep your data's structure
@@ -60,7 +64,7 @@ Example:
       
       sh ./run_sh/run_main_vanet_two_branch_resnet.sh
 
-3. evaluation
+# 3. evaluation
 
 Reference to folder run_sh/run_eval_XXX.sh
 Note: We have add 'drawing hist graph' function in evaluated stage, if you needn't this statistic operation temporarily,
