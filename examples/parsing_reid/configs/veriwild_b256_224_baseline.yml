@@ -1,0 +1,29 @@
+data:
+  name: 'VERIWild'
+  pkl_path: '../outputs/veriwild.pkl'
+  train_size: (224, 224)
+  valid_size: (224, 224)
+  train_num_workers: 32
+  test_num_workers: 8
+  batch_size: 128
+  with_mask: True
+  test_ext: '_3000'
+
+train:
+  epochs: 60
+
+loss:
+  losses: ["id", "triplet", "center"]
+
+test:
+  remove_junk: False
+  lambda_: 0.0
+  device: "cuda"
+  split: 100
+  model_path: "../outputs/veriwild_b128_pven/model_60.pth"
+
+scheduler:
+  milestones: [40, 70]
+
+device: 'cuda'
+output_dir: '../outputs/veriwild_b256_224_baseline/'

@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="02fadaf0-79fd-4cc9-b0f3-38ff6eef7e73" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/parsing_reid/main_vanet_single_branch.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="13176">
+              <caret line="574" column="42" selection-start-line="574" selection-start-column="42" selection-end-line="574" selection-end-column="42" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/examples/parsing_reid/math_tools.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="11400">
+              <caret line="500" column="13" selection-start-line="500" selection-start-column="13" selection-end-line="500" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>,</find>
+      <find>cmd_config</find>
+      <find>batch_size</find>
+      <find>mAP</find>
+      <find>vanet</find>
+      <find>cfg.data.vanet_backbone</find>
+      <find>eval_vehicle_id_</find>
+      <find>eval_</find>
+      <find>eval</find>
+      <find>cfg.model.pretrain_path</find>
+      <find>cfg.model.name</find>
+      <find>Rank-10</find>
+      <find>cfg.model.last_stride</find>
+      <find>cfg.MODEL.NAME</find>
+      <find>pretrain_path</find>
+      <find>neck_feat</find>
+      <find>self</find>
+      <find>&quot;self&quot;</find>
+      <find>pretrain_choice</find>
+      <find>load_param</find>
+      <find>warm</find>
+      <find>last_stride</find>
+      <find>warmup</find>
+      <find>last_stri</find>
+      <find>cfg.scheduler.warmup_method</find>
+      <find>erasing</find>
+      <find>import dataset</find>
+      <find>self.training</find>
+      <find>map</find>
+      <find>zero</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="AUTO_COMMIT_ON_CHERRY_PICK" value="true" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/vehicle_reid_pytorch/models/VANet/shared_conv.py" />
+        <option value="$PROJECT_DIR$/vehicle_reid_pytorch/models/VANet/branch_conv.py" />
+        <option value="$PROJECT_DIR$/vehicle_reid_pytorch/models/VANet/vanet.py" />
+        <option value="$PROJECT_DIR$/vehicle_reid_pytorch/models/__init__.py" />
+        <option value="$PROJECT_DIR$/examples/parsing_reid/vanet.py" />
+        <option value="$PROJECT_DIR$/run/run_main_vant.sh" />
+        <option value="$PROJECT_DIR$/vehicle_reid_pytorch/data/datasets/bases.py" />
+        <option value="$PROJECT_DIR$/examples/parsing_reid/configs/veri776_b64_baseline.yml" />
+        <option value="$PROJECT_DIR$/vehicle_reid_pytorch/utils/tools.py" />
+        <option value="$PROJECT_DIR$/../../../../../admin0/liushichao/.conda/envs/reid/lib/python3.6/site-packages/torchvision/models/googlenet.py" />
+        <option value="$PROJECT_DIR$/run/run_main.sh" />
+        <option value="$PROJECT_DIR$/examples/parsing_reid/configs/veri776_b64_baseline_vanet.yml" />
+        <option value="$PROJECT_DIR$/run/run_main_vanet.sh" />
+        <option value="$PROJECT_DIR$/examples/parsing_reid/configs/veri776_b64_baseline_vanet_two_bran.yml" />
+        <option value="$PROJECT_DIR$/vehicle_reid_pytorch/utils/pytorch_tools.py" />
+        <option value="$PROJECT_DIR$/run/run_main_vanet_two_branch.sh" />
+        <option value="$PROJECT_DIR$/examples/parsing_reid/configs/veri776_b64_baseline_vanet_two_branch.yml" />
+        <option value="$PROJECT_DIR$/examples/parsing_reid/configs/veri776_b64_baseline_vanet_single_branch.yml" />
+        <option value="$PROJECT_DIR$/run/run_main_vanet_single_branch.sh" />
+        <option value="$PROJECT_DIR$/examples/parsing_reid/eval_vanet.py" />
+        <option value="$PROJECT_DIR$/run/run_eval.sh" />
+        <option value="$PROJECT_DIR$/run/run_two_branch_resnet_eval.sh" />
+        <option value="$PROJECT_DIR$/run/run_main_vanet_two_branch_googlenet.sh" />
+        <option value="$PROJECT_DIR$/examples/parsing_reid/main.py" />
+        <option value="$PROJECT_DIR$/vehicle_reid_pytorch/models/baseline.py" />
+        <option value="$PROJECT_DIR$/vehicle_reid_pytorch/models/backbones/resnet.py" />
+        <option value="$PROJECT_DIR$/examples/parsing/dataset.py" />
+        <option value="$PROJECT_DIR$/results/vanet_two-branch_resnet50_bag-of-tricks_2/train.log" />
+        <option value="$PROJECT_DIR$/../../../../../admin0/liushichao/.conda/envs/reid/lib/python3.6/site-packages/torchvision/models/resnet.py" />
+        <option value="$PROJECT_DIR$/run/run_main_vanet_two_branch_resnet.sh" />
+        <option value="$PROJECT_DIR$/my_utils/eval_vanet.py" />
+        <option value="$PROJECT_DIR$/vehicle_reid_pytorch/utils/visualizer_from_fastreid.py" />
+        <option value="$PROJECT_DIR$/run/run_main_vanet_single_branch_resnet.sh" />
+        <option value="$PROJECT_DIR$/vehicle_reid_pytorch/loss/triplet_loss.py" />
+        <option value="$PROJECT_DIR$/examples/parsing_reid/configs/veri776_b64_baseline_vanet_two_branch_googlenet.yml" />
+        <option value="$PROJECT_DIR$/run/run_eval_single_branch_resnet.sh" />
+        <option value="$PROJECT_DIR$/examples/parsing_reid/configs/veri776_b64_baseline_vanet_two_branch_resnet.yml" />
+        <option value="$PROJECT_DIR$/examples/parsing_reid/main_vanet_two_branch.py" />
+        <option value="$PROJECT_DIR$/examples/parsing_reid/configs/veri776_b64_baseline_vanet_single_branch_resnet.yml" />
+        <option value="$PROJECT_DIR$/examples/parsing_reid/model.py" />
+        <option value="$PROJECT_DIR$/VANet_readme.txt" />
+        <option value="$PROJECT_DIR$/vehicle_reid_pytorch/models/vanet.py" />
+        <option value="$PROJECT_DIR$/examples/parsing_reid/main_vanet_single_branch.py" />
+        <option value="$PROJECT_DIR$/examples/parsing_reid/math_tools.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="224" />
+    <option name="y" value="295" />
+    <option name="width" value="1849" />
+    <option name="height" value="994" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/examples/parsing_reid" />
+      <recent name="$PROJECT_DIR$/vehicle_reid_pytorch/models" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/run" />
+      <recent name="$PROJECT_DIR$/vehicle_reid_pytorch/utils" />
+      <recent name="$PROJECT_DIR$/examples/parsing_reid/configs" />
+      <recent name="$PROJECT_DIR$/examples/parsing_reid" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="02fadaf0-79fd-4cc9-b0f3-38ff6eef7e73" name="Default Changelist" comment="" />
+      <created>1617075075878</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1617075075878</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="224" y="295" width="1849" height="994" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26483518" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.16975309" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="SOQL Query" order="8" />
+      <window_info anchor="bottom" id="Log Analyzer" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49945235" weight="0.2942387" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50054765" side_tool="true" weight="0.3281893" />
+      <window_info anchor="bottom" id="Anonymous Apex" order="12" />
+      <window_info anchor="bottom" id="Python Console" order="13" />
+      <window_info anchor="bottom" id="Thumbnails" order="14" weight="0.32921812" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1916758" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.34876543" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="SOQL Query" order="8" />
+      <window_info anchor="bottom" id="Log Analyzer" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49945235" weight="0.32885212" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50054765" side_tool="true" weight="0.32885212" />
+      <window_info anchor="bottom" id="Anonymous Apex" order="12" />
+      <window_info anchor="bottom" id="Python Console" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/results/vanet_two-branch_resnet50_bag-of-tricks_1/train.log" />
+    <entry file="file://$PROJECT_DIR$/../../../../../admin0/liushichao/.conda/envs/reid/lib/python3.6/site-packages/torchvision/models/resnet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="152" column="16" selection-start-line="152" selection-start-column="16" selection-end-line="152" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run/run_main_vanet_two_branch_resnet.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/vanet_two-branch_resnet50_bag-of-tricks_2/train.log" />
+    <entry file="file://$PROJECT_DIR$/results/vanet_resnet50_bag-of-tricks_use-pven-strategy_1/train.log" />
+    <entry file="file://$PROJECT_DIR$/examples/parsing_reid/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="602">
+          <caret line="305" column="85" selection-start-line="305" selection-start-column="20" selection-end-line="305" selection-end-column="85" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_utils/eval_vanet.py" />
+    <entry file="file://$PROJECT_DIR$/../fast-reid/demo/plot_roc_with_pickle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="21" column="36" lean-forward="true" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../fast-reid/fastreid/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../fast-reid/fastreid/utils/visualizer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vehicle_reid_pytorch/utils/visualize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2160">
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vehicle_reid_pytorch/utils/file_io.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="36" column="20" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../../admin0/liushichao/.conda/envs/reid/lib/python3.6/site-packages/sklearn/metrics/_ranking.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="826" column="4" selection-start-line="826" selection-start-column="4" selection-end-line="826" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/vanet_branch-conv-layer4_resnet50_bag-of-tricks_1/train.log" />
+    <entry file="file://$PROJECT_DIR$/results/vanet_branch-conv-layer4_resnet50_bag-of-tricks_3/train.log" />
+    <entry file="file://$PROJECT_DIR$/results/vanet_branch-conv-layer3-4_resnet50_bag-of-tricks_1/train.log" />
+    <entry file="file://$PROJECT_DIR$/results/vanet_branch-conv-layer4_resnet50_bag-of-tricks_2/train.log" />
+    <entry file="file://$PROJECT_DIR$/vehicle_reid_pytorch/utils/visualizer_from_fastreid.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3864">
+          <caret line="161" column="41" lean-forward="true" selection-start-line="161" selection-start-column="41" selection-end-line="161" selection-end-column="41" />
+          <folding>
+            <element signature="e#83#92#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run/run_main_vanet_single_branch_resnet.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="50" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/parsing_reid/configs/veri776_b64_baseline_vanet_two_branch_googlenet.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="19" column="87" selection-start-line="19" selection-start-column="87" selection-end-line="19" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run/run_eval_two_branch_resnet.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="77" selection-start-line="2" selection-start-column="77" selection-end-line="2" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist_.jpg" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="480">
+            <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/vanet_single-branch_resnet50_bag-of-tricks_1/train.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="591">
+          <caret line="3854" column="52" selection-start-line="3854" selection-start-column="49" selection-end-line="3854" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/vanet_single-branch_resnet50_bag-of-tricks_2/train.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="3224" column="52" selection-start-line="3224" selection-start-column="49" selection-end-line="3224" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run/run_eval_single_branch_resnet.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/parsing_reid/configs/veri776_b64_baseline_vanet_two_branch_resnet.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/vanet_single-branch_resnet50_bag-of-tricks_3/train.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="3857" column="66" selection-start-line="3857" selection-start-column="66" selection-end-line="3857" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/parsing_reid/model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3048">
+          <caret line="127" column="26" lean-forward="true" selection-start-line="127" selection-start-column="26" selection-end-line="127" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#97#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/parsing_reid/configs/veri776_b64_baseline_vanet_single_branch_resnet.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/d_branch.jpg" />
+    <entry file="file://$PROJECT_DIR$/s_branch.jpg" />
+    <entry file="file://$PROJECT_DIR$/single_branch.jpg" />
+    <entry file="file://$PROJECT_DIR$/two_branch.jpg" />
+    <entry file="file://$PROJECT_DIR$/two_branch_infer.pkl" />
+    <entry file="file://$PROJECT_DIR$/single_branch_infer.pkl" />
+    <entry file="file://$PROJECT_DIR$/vis_t.jpg" />
+    <entry file="file://$PROJECT_DIR$/../../../../../admin0/liushichao/.conda/envs/reid/lib/python3.6/site-packages/matplotlib/pyplot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="2624" column="14" lean-forward="true" selection-start-line="2624" selection-start-column="14" selection-end-line="2624" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../../admin0/liushichao/.conda/envs/reid/lib/python3.6/site-packages/torch/_C/_VariableFunctions.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="1223" column="6" lean-forward="true" selection-start-line="1223" selection-start-column="6" selection-end-line="1223" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vis_all_500.jpg" />
+    <entry file="file://$PROJECT_DIR$/vis_all_100.jpg" />
+    <entry file="file://$PROJECT_DIR$/vis_all_two_branch.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vis_all_single_branch.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VANet_readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../../admin0/liushichao/.conda/envs/reid/lib/python3.6/site-packages/numpy/core/fromnumeric.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75384">
+          <caret line="3155" column="47" selection-start-line="3155" selection-start-column="47" selection-end-line="3155" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vehicle_reid_pytorch/loss/triplet_loss.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4056">
+          <caret line="171" column="25" selection-start-line="171" selection-start-column="25" selection-end-line="171" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vehicle_reid_pytorch/models/vanet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="160" column="50" lean-forward="true" selection-start-line="160" selection-start-column="50" selection-end-line="160" selection-end-column="50" />
+          <folding>
+            <element signature="e#99#109#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/parsing_reid/main_vanet_two_branch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="647" column="34" selection-start-line="647" selection-start-column="34" selection-end-line="647" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vehicle_reid_pytorch/metrics/eval_reid.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="78" column="4" selection-start-line="78" selection-start-column="4" selection-end-line="78" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/parsing_reid/main_vanet_single_branch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13176">
+          <caret line="574" column="42" selection-start-line="574" selection-start-column="42" selection-end-line="574" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/parsing_reid/math_tools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11400">
+          <caret line="500" column="13" selection-start-line="500" selection-start-column="13" selection-end-line="500" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

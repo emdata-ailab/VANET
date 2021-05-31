@@ -1,0 +1,2 @@
+python examples/parsing_reid/main_vanet_two_branch.py \
+train -c examples/parsing_reid/configs/veri776_b64_baseline_vanet_two_branch_googlenet.yml

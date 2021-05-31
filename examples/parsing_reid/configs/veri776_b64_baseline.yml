@@ -1,0 +1,21 @@
+data:
+#  pkl_path: '/liushichao/MY_PVEN/examples/outputs/veri776.pkl'
+  pkl_path: 'examples/outputs/veri776.pkl'
+  train_size: (256, 256)
+  valid_size: (256, 256)
+  train_num_workers: 16  # 16
+  test_num_workers: 4   # 4
+  batch_size: 64
+  with_mask: True
+  for_vanet: False
+
+loss:
+  losses: ["id", "triplet", "center"]
+
+test:
+  remove_junk: True
+  lambda_: 0.0
+
+device: 'cuda'
+output_dir: '/liushichao/MY_PVEN/results/test/'
+
