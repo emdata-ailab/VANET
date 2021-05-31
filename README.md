@@ -7,20 +7,25 @@ This is the implementation of article VANet"Vehicle Re-identification with Viewp
 single-branch training and two branch training.
 
 The whole implementation is based on PVEN project(https://github.com/silverbulletmdc/PVEN). The key code block added are mainly distributed at:
+   
     For network construction:
         This project provide two version of backbone, namely 'googlenet' and 'resnet50' respectively. There the corresponding configuration files 
         as well as other corresponding code interfence are all provided completely.
         code location: vehicle_reid_pytorch/models/vanet.py
+    
     For training:
         This project provide two mode of training, namely 'single branch(baseline of VANet)' and 'two branch(VANet)' respectively
         code location: examples/parsing_reid/main_vanet_single_branch.py
         code location: examples/parsing_reid/main_vanet_two_branch.py
+    
     Configuration files:
         code location: examples/parsing_reid/configs/veri776_b64_baseline_vanet_single_branch_resnet.yml
         code location: examples/parsing_reid/configs/veri776_b64_baseline_vanet_two_branch_resnet.yml
         code location: examples/parsing_reid/configs/veri776_b64_baseline_vanet_two_branch_googlenet.yml
+    
     For loss calculation:
         code location: vehicle_reid_pytorch/loss/triplet_loss.py
+    
     For evaluation:
         mAP, cmc, ..., hist distribution figure drawing function are included.
         code location: examples/parsing_reid/math_tools.py
@@ -42,6 +47,7 @@ note: this visualization code can be founded at examples/parsing_reid/math_tools
 
 All the results are tested on VeRi-776 dstasets.
 Please reference to the environment implementation of other general reid projects, this project reference to fast-reid's. 
+
 
 2. Training
 
