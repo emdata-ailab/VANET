@@ -6,6 +6,8 @@ Code reproduce for paper "Vehicle Re-identification with Viewpoint-aware Metric 
 This is the implementation of article VANet **"Vehicle Re-identification with Viewpoint-aware Metric Learning"**, which support both
 single-branch training and two branch training.
 
+<img src='./architecture.png' width=600>
+
 ## Implementation details 
 
 The whole implementation is based on PVEN project(https://github.com/silverbulletmdc/PVEN). The key code block added and modified are mainly distributed as follows:
