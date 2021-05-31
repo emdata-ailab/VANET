@@ -6,7 +6,7 @@ Projects reproduce details of paper 'Vanet' :
 This is the implementation of article VANet"Vehicle Re-identification with Viewpoint-aware Metric Learning", which support both
 single-branch training and two branch training.
 
-The whole implementation is based on PVEN project(https://github.com/silverbulletmdc/PVEN). The key code block added are mainly distributed as follows:
+The whole implementation is based on PVEN project(https://github.com/silverbulletmdc/PVEN). The key code block added and modified are mainly distributed as follows:
    
     For network construction:
         This project provide two version of backbone, namely 'googlenet' and 'resnet50' respectively. There the corresponding configuration files 
