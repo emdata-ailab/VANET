@@ -75,5 +75,5 @@ Example:
 For any question, please file an issue or contact
 
 ```
-Shichao Liu (Shanghai Em-Data Technology Co., Ltd.) liushichao0601@gmail.com
+(Shanghai Em-Data Technology Co., Ltd.) liushichao0601@gmail.com
 ```
