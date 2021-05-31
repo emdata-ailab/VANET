@@ -6,7 +6,7 @@ Projects reproduce details of paper 'Vanet' :
 This is the implementation of article VANet"Vehicle Re-identification with Viewpoint-aware Metric Learning", which support both
 single-branch training and two branch training.
 
-The whole implementation is based on PVEN project(https://github.com/silverbulletmdc/PVEN). The key code block added are mainly distributed at:
+The whole implementation is based on PVEN project(https://github.com/silverbulletmdc/PVEN). The key code block added are mainly distributed as follows:
    
     For network construction:
         This project provide two version of backbone, namely 'googlenet' and 'resnet50' respectively. There the corresponding configuration files 
@@ -31,13 +31,14 @@ The whole implementation is based on PVEN project(https://github.com/silverbulle
         code location: examples/parsing_reid/math_tools.py
 
 We have achieved the following preformance by using the method this paper provided.
--------------------------- ---------------------------------------
-              |    mAP    |   rank-1   |   rank-5   |   rank-10  |
---------------------------------- --------------------------------
-two-branch    |   80.1%   |   96.48    |   98.46    |    99.40   | 
-------------------------------------------------------------------
-single-branch |   77.8%   |   95.29    |   97.79    |    98.81   |
-------------------------------------------------------------------
+
+         -------------------------- ---------------------------------------
+                       |    mAP    |   rank-1   |   rank-5   |   rank-10  |
+         --------------------------------- --------------------------------
+         two-branch    |   80.1%   |   96.48    |   98.46    |    99.40   | 
+         ------------------------------------------------------------------
+         single-branch |   77.8%   |   95.29    |   97.79    |    98.81   |
+         ------------------------------------------------------------------
 
 Also, four type data's(similar-view_same-id, similar-view_different-id, different-view_different-id, different-view_same-id)) distribution are drawn based on paper's aspect:
 note: this visualization code can be founded at examples/parsing_reid/math_tools.py 
