@@ -1,6 +1,4 @@
 import os
-import pdb
-
 import torch
 from torch.nn import functional as F
 import numpy as np
@@ -21,7 +19,6 @@ from scipy.stats import norm
 import matplotlib.pyplot as plt
 from tqdm import tqdm
 import random
-import pickle
 
 from vehicle_reid_pytorch.utils.file_io import PathManager
 
@@ -276,7 +273,7 @@ class Clck_R1_mAP:
         print("length of 'neg': ", len(t_neg))
         if fig is None:
             fig = plt.figure()
-        ###################two branch
+        ###################two branch###################
         # two branch pos
         t_pos_color = (random.uniform(0, 1), random.uniform(0, 1), random.uniform(0, 1))
         n, bins, _ = plt.hist(t_pos, bins=80, alpha=0.7, density=True,
@@ -297,7 +294,7 @@ class Clck_R1_mAP:
         y = norm.pdf(bins, mu, sigma)  # fitting curve
         plt.plot(bins, y, color=t_neg_color)  # plot y curve
 
-        ###################single branch###################
+        ###################single branch##################
         # for single branch positive samples.
         s_pos_color = (random.uniform(0, 1), random.uniform(0, 1), random.uniform(0, 1))
         n, bins, _ = plt.hist(s_pos, bins=80, alpha=0.7, density=True,
@@ -544,7 +541,7 @@ class Clck_R1_mAP:
         cmc, mAP, all_AP = eval_func_mp(s_distmat, q_pids, g_pids, q_camids, g_camids,
                                         remove_junk=self.remove_junk)
 
-        ###### add visualize results from fast-reid
+        ###### add visualization results from fast-reid
         vis_save_path = save_path
 
         # get specific pos and neg.
@@ -767,8 +764,8 @@ if __name__ == '__main__':
     # draw total hist graph
 
     # two branch
-    two_s_view_path = '/liushichao/VANet_based_PVEN/two-branch_s-view_pos-&-neg_infer_part-neg.pkl'
-    two_d_view_path = '/liushichao/VANet_based_PVEN/two-branch_d-view_pos-&-neg_infer_part-neg.pkl'
+    two_s_view_path = '/liushichao/VANet/two-branch_s-view_pos-&-neg_infer_part-neg.pkl'
+    two_d_view_path = '/liushichao/VANet/two-branch_d-view_pos-&-neg_infer_part-neg.pkl'
 
     two_s_data = pickle.load(open(two_s_view_path, 'rb'))
     two_d_data = pickle.load(open(two_d_view_path, 'rb'))
@@ -782,8 +779,8 @@ if __name__ == '__main__':
                       d_pos=two_d_pos, d_neg=two_d_neg, fig=None)
 
     # single branch
-    single_s_view_path = '/liushichao/VANet_based_PVEN/single-branch_s-view_pos-&-neg_infer_part-neg.pkl'
-    single_d_view_path = '/liushichao/VANet_based_PVEN/single-branch_d-view_pos-&-neg_infer_part-neg.pkl'
+    single_s_view_path = '/liushichao/VANet/single-branch_s-view_pos-&-neg_infer_part-neg.pkl'
+    single_d_view_path = '/liushichao/VANet/single-branch_d-view_pos-&-neg_infer_part-neg.pkl'
 
     single_s_data = pickle.load(open(single_s_view_path, 'rb'))
     single_d_data = pickle.load(open(single_d_view_path, 'rb'))
