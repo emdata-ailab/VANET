@@ -97,7 +97,7 @@ Example:
 For any question, please file an issue or contact
 
 ```
-(Shanghai Em-Data Technology Co., Ltd.) liushichao0601@gmail.com
+Shichao Liu (Shanghai Em-Data Technology Co., Ltd.) liushichao0601@gmail.com
 ```
 
 
