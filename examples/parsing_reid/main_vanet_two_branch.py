@@ -1,4 +1,3 @@
-import pdb
 import os
 import sys
 import click
@@ -78,7 +77,6 @@ def make_config():
     cfg.optim.weight_decay = 0.0005
     cfg.optim.momentum = 0.9
 
-    # added(202104)
     # cfg.optim = CfgNode()
     # cfg.optim.name = 'Adam'
     # cfg.optim.base_lr = 0.001
