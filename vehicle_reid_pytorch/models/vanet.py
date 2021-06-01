@@ -2,7 +2,6 @@
 Appends two convolutional branches to transform all images to 2N features.
 @ Author: liushichao
 """
-import pdb
 import torch
 import copy
 from torch import Tensor, nn
@@ -215,7 +214,7 @@ class vanet_resnet50_wrapper(ResNet):
     #     self.d_bnneck = copy.deepcopy(self.bnneck)
     #     self.d_classifier = copy.deepcopy(self.classifier)
 
-    # shared_conv and branch_conv network version 2: branch-conv layer 3 and layer 4.  For best mAP(80.1) two branch.
+    # shared_conv and branch_conv network version 2: branch-conv layer 3 and layer 4.  For best mAP(80.1) of two branch.
     def __init__(self):
         super(vanet_resnet50_wrapper, self).__init__(
             block=Bottleneck,
