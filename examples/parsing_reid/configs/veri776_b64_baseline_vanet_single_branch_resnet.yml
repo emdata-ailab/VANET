@@ -26,5 +26,4 @@ test:
   model_path: '/liushichao/VANet_based_PVEN/results/vanet_single-branch_resnet50_bag-of-tricks_3/model_120.pth'
 
 device: 'cuda'
-output_dir: '/liushichao/VANet_based_PVEN/results/vanet_single-branch_resnet50_bag-of-tricks_3'
-
+output_dir: '/liushichao/VANet_based_PVEN/results/vanet_single-branch_resnet50_bag-of-tricks'
