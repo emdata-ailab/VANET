@@ -1,12 +1,14 @@
 # VANET
 Code reproduce for paper "Vehicle Re-identification with Viewpoint-aware Metric Learning"
 
+
 ## Introduction
 
 This is the implementation of article VANet **"Vehicle Re-identification with Viewpoint-aware Metric Learning"**, which support both
 single-branch training and two branch training.
 
 <img src='./architecture.png' width=1200>
+
 
 ## Implementation details 
 
@@ -33,6 +35,7 @@ The whole implementation is based on PVEN project(https://github.com/silverbulle
     For evaluation:
         mAP, cmc, ..., hist distribution figure drawing function are included.
         code location: examples/parsing_reid/math_tools.py
+
 
 ## Results comparasion
 
@@ -83,6 +86,12 @@ Example:
 
       sh ./run_sh/run_eval_two_branch_resnet.sh
 
+### reference
+[1] Khorramshahi, Pirazh, et al. "The devil is in the details: Self-supervised attention for vehicle re-identification." European Conference on Computer Vision. Springer, Cham, 2020.
+
+[2] Luo, Hao, et al. "Bag of tricks and a strong baseline for deep person re-identification." Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops. 2019.
+
+
 ## Contact
 
 For any question, please file an issue or contact
@@ -91,6 +100,4 @@ For any question, please file an issue or contact
 (Shanghai Em-Data Technology Co., Ltd.) liushichao0601@gmail.com
 ```
 
-### reference
-[1] Khorramshahi, Pirazh, et al. "The devil is in the details: Self-supervised attention for vehicle re-identification." European Conference on Computer Vision. Springer, Cham, 2020.
-[2] Luo, Hao, et al. "Bag of tricks and a strong baseline for deep person re-identification." Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops. 2019.
+
