@@ -161,7 +161,6 @@ class Clck_R1_mAP:
         :param feats:
         :param views_mask:
         :return:
-        @Time: 20210401
         """
         # query
         qf = views_feats[:self.num_query]
@@ -330,7 +329,6 @@ class Clck_R1_mAP:
 
     def draw_distri(self, vis_save_path, fig_name, distmat, q_pids, q_camids, g_pids, g_camids):
         """
-        @time: 20210419
         :param vis_save_path:
         :param distmat:
         :param q_pids:
@@ -364,7 +362,6 @@ class Clck_R1_mAP:
 
     def compute_vanet_two_branch(self, save_path, split=0):
         """
-        @20210331
         split: When the CUDA memory is not sufficient, we can split the dataset into different parts
                for the computing of distance.
         """
@@ -406,7 +403,7 @@ class Clck_R1_mAP:
         cmc, mAP, all_AP = eval_func_mp(distmat, q_pids, g_pids, q_camids, g_camids,
                                         remove_junk=self.remove_junk)
 
-        ###### add visualize results from fast-reid(20210416)
+        ###### add visualize results from fast-reid
         # draw total distribuction hist.
         # print("draw two branch distribution fig...")
 
@@ -497,7 +494,7 @@ class Clck_R1_mAP:
         g_views = torch.from_numpy(np.asarray(self.views[self.num_query:]))
 
 
-        # # save info only(20210426).
+        # # just to save info.
         # # pdb.set_trace()
         # g_pids = self.pids[self.num_query:]
         # g_camids = self.camids[self.num_query:]
@@ -527,7 +524,6 @@ class Clck_R1_mAP:
         # io.savemat('./pytorch_results.mat', res)
         # print("################# ok ###############")
 
-        # pdb.set_trace()
         s_distmat = self.cal_dist_mat(split=split, views_feats=s_feats)  # np.array(1677, 11578)
         d_distmat = self.cal_dist_mat(split=split, views_feats=d_feats)  # np.array(1677, 11578)
 
@@ -548,10 +544,10 @@ class Clck_R1_mAP:
         cmc, mAP, all_AP = eval_func_mp(s_distmat, q_pids, g_pids, q_camids, g_camids,
                                         remove_junk=self.remove_junk)
 
-        ###### add visualize results from fast-reid(20210419)
+        ###### add visualize results from fast-reid
         vis_save_path = save_path
 
-        # get specific pos and neg(20210420).
+        # get specific pos and neg.
         q_pids = torch.from_numpy(q_pids)
         g_pids = torch.from_numpy(g_pids)
         dummy_q_pid = q_pids.repeat(g_pids.shape[0], 1).permute(1, 0)
