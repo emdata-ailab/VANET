@@ -48,7 +48,9 @@ We have achieved the following preformance by using the method this paper 'VANET
           BOT[1]      |   78.2%   |   95.5    |   97.9    |      *    |
          --------------------------------------------------------------
 
-Note, with respect to the two branch implementation of the above "VANET+BOT", we adopted the first 6 layers of the official resnet50 as the shared_conv network, the remaining two layers as the branch_conv network.There are also instructions in the corresponding code when you use.
+Note：
+The 'BOT', which means "bag of tricks" proposed by paper[2].
+With respect to the two branch implementation of the above "VANET+BOT", we adopted the first 6 layers of the official resnet50 as the shared_conv network, the remaining two layers as the branch_conv network.There are also instructions in the corresponding code when you use.
 
 
 Also, four type data's(similar-view_same-id, similar-view_different-id, different-view_different-id, different-view_same-id) distribution are drawn based on paper's aspect.
@@ -91,3 +93,4 @@ For any question, please file an issue or contact
 
 ### reference
 [1] Khorramshahi, Pirazh, et al. "The devil is in the details: Self-supervised attention for vehicle re-identification." European Conference on Computer Vision. Springer, Cham, 2020.
+[2] Luo, Hao, et al. "Bag of tricks and a strong baseline for deep person re-identification." Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops. 2019.
