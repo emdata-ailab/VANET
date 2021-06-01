@@ -3,22 +3,21 @@ data:
   pkl_path: 'examples/outputs/veri776.pkl'
   train_size: (256, 256)
   valid_size: (256, 256)
-  train_num_workers: 16  # 16
-  test_num_workers: 4   # 4
-  batch_size: 64 # 64
+  train_num_workers: 16  
+  test_num_workers: 4   
+  batch_size: 64 
   with_mask: True
   for_vanet: True
   vanet_backbone: resnet
 
 loss:
-  losses: ["id", "triplet", "center"]  # "center"
+  losses: ["id", "triplet", "center"]  
 
 test:
   remove_junk: True
   lambda_: 0.0
   vis_save_path: '/liushichao/VANet_based_PVEN/results_vis/two_branch'
-  model_path: '/home/nfs/nfsstorage2/ai/liushichao/VANet_outputs/results-resnet-backbone-two-version/vanet_branch-conv-layer3-4_resnet50_bag-of-tricks_3/model_120.pth' # checkpoint path  # mAP 80.1
+  model_path: '/liushichao/VANet_outputs/results-resnet-backbone-two-version/vanet_branch-conv-layer3-4_resnet50_bag-of-tricks/model_120.pth' # checkpoint path  # mAP 80.1
 
 device: 'cuda'
-output_dir: '/liushichao/VANet_based_PVEN/results/vanet_0518'
-
+output_dir: '/liushichao/VANet_based_PVEN/results/vanet'
